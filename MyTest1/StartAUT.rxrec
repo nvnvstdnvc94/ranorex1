@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0430159d-433d-4e70-bf5e-d8482b914500"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="MyTest1">
+	</codegen>
+	<variables>
+		<var
+		id="dc543596-8caa-4191-a75f-25f799d63a33"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				Microsoft.WindowsCalculator_8wekyb3d8bbwe!App
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="c27e9dc0-9bc3-4223-9c79-f9a4dea2e677"
+	name="MyTest1Repository"
+	relativepath="MyTest1Repository.rxrep">
+		<codegen
+		classname="MyTest1Repository"
+		namespace="MyTest1">
+		</codegen>
+		<rootfolder
+		id="affcee34-1eb0-4ead-ba6a-4b1d17023432"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
